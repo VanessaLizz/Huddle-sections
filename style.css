@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte-cabeçalho: "Poppins";
+    --fonte-texto: "Open Sans";
+    --rosa: hsl(322, 100%, 66%);
+    --rosa-claro: hsl(321, 100%, 78%);
+    --vermelho: hsl(0, 100%, 63%);
+    --azul-escuro: hsl(192, 100%, 9%);
+    --azul-claro: hsl(207, 100%, 98%);
+    --cinza: #999797;
+}
+
+body {
+    margin: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem__topo {
+    width: 30vw;
+    height: 3vh;
+}
+
+.texto__topo {
+    color: var(--rosa-claro);
+    font-family: var(--fonte-texto);
+    font-size: 12px;
+    border: 1px solid var(--rosa-claro);
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 15px;
+    gap: 5rem;
+}
+
+.container__titulo {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.titulo__cabeçalho {
+    font-family: var(--fonte-cabeçalho);
+    font-weight: 700;
+    font-size: 23px;
+    margin: 0 0.5rem;
+}
+
+.texto__cabeçalho {
+    margin: 2rem 0;
+}
+
+.botao__cabeçalho {
+    border: 1px solid var(--rosa);
+    background-color: var(--rosa);
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 0.7rem 2.2rem;
+    font-weight: 700;
+}
+
+.img__telas {
+    width: 85%;
+}
+
+.container__dados {
+    width: 85%;
+}
+
+.dados__comunidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.icone__imagem {
+    overflow: hidden;
+    width: 8%;
+}

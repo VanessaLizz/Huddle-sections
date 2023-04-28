@@ -138,6 +138,24 @@ main {
 
 footer {
     background-color: var(--azul-escuro);
+    color: #FFFFFF;
+    padding: 2rem 2rem 1rem 2rem;
+    font-family: var(--fonte-texto);
+    font-size: 14px;
 }
 
-.news__sub {}
+.news__titulo {
+    text-transform: uppercase;
+}
+
+.news__descriçao {
+    margin: 1rem 0;
+}
+
+.news__placeholder {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 0.5rem 0;
+}
+
